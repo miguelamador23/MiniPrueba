@@ -16,7 +16,7 @@ class ClientesController
     {
         $clientesModel = new Clientes();
 
-        // Utilizar métodos del modelo Clientes
+      
         $clientes = $clientesModel->all();
 
         foreach ($clientes as $cliente) {
